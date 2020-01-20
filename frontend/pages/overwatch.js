@@ -31,7 +31,8 @@ const overwatch = props => {
   } else {
     <MapsList teamName={url.query.user} url={url} />;
   }
-  return <MapsList teamName={url.query.user} url={url} />;
+  //   return <MapsList teamName={url.query.user} url={url} />;
+  return <h2>Maps List</h2>;
   //   return (
   //     <>
   //       {
