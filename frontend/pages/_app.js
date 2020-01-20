@@ -1,6 +1,6 @@
 import App, { Container } from "next/app";
 import { ApolloProvider } from "react-apollo";
-import withData from "../lib/withData";
+// import withData from "../lib/withData";
 
 import Page from "../components/Page";
 
@@ -30,4 +30,4 @@ class MyApp extends App {
   }
 }
 
-export default withData(MyApp);
+export default MyApp;
