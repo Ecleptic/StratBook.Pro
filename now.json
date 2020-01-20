@@ -1,3 +1,4 @@
 {
-    "builds": [{ "src": "frontend/server.js", "use": "@now/node" }]
+    "version": 2,
+    "builds": [{ "src": "frontend/package.json", "use": "@now/node" }]
 }
