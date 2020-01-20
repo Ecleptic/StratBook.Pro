@@ -1,6 +1,6 @@
 {
     "name": "strat-book-frontend",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A StratBook for video game pros",
     "main": "index.js",
     "scripts": {
@@ -14,6 +14,9 @@
     },
     "author": "Cameron Green",
     "license": "ISC",
+    "engines": {
+        "node": "12.x"
+    },
     "dependencies": {
         "@ckeditor/ckeditor5-build-classic": "^16.0.0",
         "@ckeditor/ckeditor5-react": "^2.1.0",
