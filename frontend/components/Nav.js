@@ -10,7 +10,7 @@ const Nav = () => (
       <a>Overwatch</a>
     </Link>
     {/* <CreateUser /> */}
-    <User>
+    {/* <User>
       {({ data }) => {
         if (data?.me) {
           return <Signout />;
@@ -23,7 +23,7 @@ const Nav = () => (
           );
         }
       }}
-    </User>
+    </User> */}
   </NavStyles>
 );
 

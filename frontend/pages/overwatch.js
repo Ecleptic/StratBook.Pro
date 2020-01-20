@@ -1,20 +1,5 @@
+import { withRouter } from "next/router";
 import MapsList from "../components/OwStrategy/MapsList";
-import Strat from "../components/OwStrategy/Strat";
-import StratEdit from "../components/OwStrategy/StratEdit";
-import {
-  OwUrlToMap,
-  OwIsMap,
-  OwMapToEnum,
-  OwMaps
-} from "../configs/Overwatch/OwData";
-import Router, { withRouter } from "next/router";
-import Signup from "../components/Signup_Portal";
-import User from "../components/User";
-import gql from "graphql-tag";
-import { Query } from "react-apollo";
-import Error from "../components/ErrorMessage";
-import OverwatchPage from "../components/pages/OverwatchPage";
-import MapDetails from "../components/pages/MapDetails";
 
 const overwatch = props => {
   const url = props.router;
