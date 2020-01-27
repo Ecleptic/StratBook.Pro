@@ -1,31 +1,39 @@
-# StratBook.Pro
+<h1 align="center">Welcome to strat-book-frontend 👋</h1>
+<p>
+  <img src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+</p>
 
-Strategy handbook manager for Overwatch and other esports
+> A StratBook for video game pros
 
-### Setup
-Terminal 1:
-```
-cd backend
-touch .env
-```
-In .env:
-```
-FRONTEND_URL="http://localhost:YourFrontendPort"
-PRISMA_ENDPOINT="YourPrisma(GraphQL)Endpoint"
-PRISMA_SECRET="YourPrismaSecret"
-APP_SECRET="YourJavascriptWebtokenSecret"
-PORT=YourBackendPort
-```
-### Run
-Back in Terminal 1:
-```
+### 🏠 [Homepage](Https://localhost:42069)
+
+## Install
+
+```sh
 npm install
+```
+
+## Usage
+
+```sh
 npm run dev
 ```
 
-Termainal 2:
+## Run tests
+
+```sh
+npm run test
 ```
-cd frontend
-npm install
-npm run dev
-```
+
+## Author
+
+👤 **Cameron Green**
+
+* Github: [@ecleptic](https://github.com/ecleptic)
+
+## Show your support
+
+Give a ⭐️ if this project helped you !
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
