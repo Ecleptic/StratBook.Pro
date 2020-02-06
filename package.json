@@ -62,7 +62,7 @@
         "@babel/plugin-proposal-optional-chaining": "^7.8.3",
         "babel-jest": "^24.9.0",
         "babel-plugin-module-resolver": "^4.0.0",
-        "babel-plugin-styled-components": "^1.10.6",
+        "babel-plugin-styled-components": "^1.10.7",
         "casual": "^1.6.2",
         "enzyme-to-json": "^3.4.3",
         "eslint": "^6.8.0",
@@ -104,7 +104,6 @@
                             "ssr": true,
                             "displayName": true,
                             "preprocess": false
-
                         },
                         "@babel/plugin-proposal-optional-chaining"
                     ]
