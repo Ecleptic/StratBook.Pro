@@ -64,7 +64,6 @@ const Header = () => (
       <Logo>
         <Link href="/">
           <a>StratBook.Pro</a>
-          {/* <a>Uber Important!</a> */}
         </Link>
       </Logo>
       <Nav />

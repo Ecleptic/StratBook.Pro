@@ -1,0 +1,9 @@
+node_modules/
+static/
+.cache/
+.*
+.git/
+
+# Add these files to ignore, since webpack is storing the compiled output to public/ folder
+src/
+dist/
